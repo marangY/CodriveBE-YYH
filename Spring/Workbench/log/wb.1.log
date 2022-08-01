@@ -1,0 +1,117 @@
+07:34:32 [ERR][      Workbench]: Console redirection failed.
+07:34:32 [INF][      Workbench]: Starting up Workbench
+07:34:32 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 5610640
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 43515904
+07:34:32 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-KVO0H26
+	USERPROFILE = C:\Users\User
+	HOMEPATH = \Users\User
+	LOCALAPPDATA = C:\Users\User\AppData\Local
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	IntelliJ IDEA Community Edition = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;
+	PROCESSOR_LEVEL = 25
+	LOGONSERVER = \\DESKTOP-KVO0H26
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	SystemDrive = C:
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\User\AppData\Roaming
+	Path = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Program Files\MariaDB 10.8\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;
+	USERNAME = User
+	OneDrive = C:\Users\User\OneDrive
+	TEMP = C:\Users\User\AppData\Local\Temp
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-KVO0H26
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+	ComSpec = C:\Windows\system32\cmd.exe
+	INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+	USERDOMAIN = DESKTOP-KVO0H26
+	MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 32
+	TMP = C:\Users\User\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 2102
+	PUBLIC = C:\Users\Public
+07:34:33 [INF][      Workbench]: Current version given by meta info is: 8.0.30
+07:34:33 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Program Files\MariaDB 10.8\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;
+07:34:33 [INF][ mforms managed]: Initializing mforms wrapper
+07:34:33 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	user data dir: C:\Users\User\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+07:34:33 [INF][      WBContext]: WbContext::init
+07:34:33 [INF][            WBA]: Looking for extension modules for WBA...
+07:34:33 [INF][            WBA]: 0 extension modules found
+07:34:33 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+07:34:33 [WRN][            grt]: C:\Users\User\AppData\Roaming\MySQL\Workbench\connections.xml:26: link '{895E8967-CFCD-48C0-B989-8D9DFD021509}' <object GrtObject> key=owner could not be resolved
+07:34:33 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+07:34:33 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.30 CE build 2054668 (64 bit)
+	Configuration Directory: C:\Users\User\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	Cairo Version: 1.17.4
+	OS: Microsoft Windows 10 Home
+	CPU: 32x AMD Ryzen 9 5950X 16-Core Processor            , 64.0 GiB RAM
+	Active video adapter NVIDIA GeForce RTX 3090
+	Installed video RAM: -1 MB
+	Current video mode: 3840 x 2160 x 4294967296색
+	Used bit depth: 32
+	Driver version: 30.0.15.1295
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll
+	Current user language: 한국어(대한민국)
+
+07:34:33 [INF][      Workbench]: UI is up
+07:34:33 [WRN][         mforms]: Resource file not found: search_sidebar.png
+07:34:36 [INF][      Workbench]: Running the application
+07:34:37 [INF][SQL Editor Form]: Opened connection 'MariaDB' to mariadb.org binary distribution version 10.8.3-MariaDB
+07:34:37 [WRN][         mforms]: Resource file not found: wb-toolbar_nav-back.png
+07:34:37 [WRN][         mforms]: Resource file not found: wb-toolbar_nav-forward.png
+07:34:37 [WRN][         mforms]: Resource file not found: wb-toolbar_automatic-help-off.png
+07:34:37 [WRN][         mforms]: Resource file not found: wb-toolbar_automatic-help-on.png
+07:34:37 [WRN][         mforms]: Resource file not found: wb-toolbar_manual-help.png
+07:34:37 [WRN][         mforms]: Resource file not found: snippet_use.png
+07:34:37 [WRN][         mforms]: Resource file not found: snippet_insert.png
+07:34:37 [WRN][         mforms]: Resource file not found: snippet_clipboard.png
+07:34:37 [ERR][      Workbench]: 매개 변수가 잘못되었습니다.
+Exception = System.ArgumentException
+Message = 매개 변수가 잘못되었습니다.
+FullText = System.ArgumentException: 매개 변수가 잘못되었습니다.
+   위치: System.Drawing.Bitmap..ctor(String filename, Boolean useIcm)
+   위치: TriangleNodeControl..ctor()
+   위치: MformsTree.AddColumn(TreeColumnType type, String name, Int32 initial_width, Boolean editable)
+   위치: MySQL.Forms.ViewEventTarget.HandleMouseClick(Object sender, MouseEventArgs e)
+   위치: System.Windows.Forms.Control.OnMouseClick(MouseEventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

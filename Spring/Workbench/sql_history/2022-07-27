@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='18:23:40'>SHOW databases</ENTRY>
+<ENTRY timestamp='18:24:30'>USE world</ENTRY>
+<ENTRY timestamp='02:31:45'>~</ENTRY>
+<ENTRY timestamp='02:33:19'>SELECT * Name, Population FROM city</ENTRY>
+<ENTRY timestamp='02:33:28'>SELECT Name, Population FROM city</ENTRY>
+<ENTRY timestamp='02:33:48'>USE world</ENTRY>
+<ENTRY timestamp='02:33:53'>SELECT Name, Population FROM city</ENTRY>
+<ENTRY timestamp='01:52:28'>CREATE TABLE `board`.`board` (&#x0A;  `id` INT NOT NULL,&#x0A;  `title` VARCHAR(45) NOT NULL,&#x0A;  `content` TEXT NOT NULL,&#x0A;  `tag` VARCHAR(10) NOT NULL,&#x0A;  `day` VARCHAR(45) NOT NULL,&#x0A;  `user` VARCHAR(45) NOT NULL,&#x0A;  PRIMARY KEY (`id`))</ENTRY>
+<ENTRY timestamp='05:15:34'>CREATE TABLE `board`.`board` (&#x0A;  `id` INT NOT NULL,&#x0A;  `title` VARCHAR(45) NOT NULL,&#x0A;  `content` TEXT NOT NULL,&#x0A;  `day` VARCHAR(45) NOT NULL,&#x0A;  `tag` VARCHAR(45) NOT NULL,&#x0A;  `user` VARCHAR(45) NOT NULL,&#x0A;  PRIMARY KEY (`id`))</ENTRY>

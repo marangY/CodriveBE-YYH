@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='02:31:30'>SELECT Name, Population FROM city</ENTRY>

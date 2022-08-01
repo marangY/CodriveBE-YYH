@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="000002197C19FC20" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{B4DA74F6-4C43-43BD-B49E-A6AA4B261A8A}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{DF93E7C2-B23C-458B-B31C-7957248A529E}</link>
+      <value _ptr_="000002191B28DB60" type="dict" key="loginInfo">
+        <value type="string" key="wmi.hostName"></value>
+        <value type="string" key="wmi.userName"></value>
+      </value>
+      <value _ptr_="000002191B28DCE0" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.config.path">C:\ProgramData\MySQL\MySQL Server 8.0\my.ini</value>
+        <value type="int" key="sys.config.path.lock">1</value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.mysqld.service_name">MySQL80</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="string" key="sys.system">Windows</value>
+        <value type="int" key="windowsAdmin">1</value>
+      </value>
+      <value type="string" key="name">MariaDB</value>
+    </value>
+  </value>
+</data>

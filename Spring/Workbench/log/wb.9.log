@@ -1,0 +1,168 @@
+01:10:38 [ERR][      Workbench]: Console redirection failed.
+01:10:38 [INF][      Workbench]: Starting up Workbench
+01:10:38 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 692059671
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 43700224
+01:10:38 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-KVO0H26
+	USERPROFILE = C:\Users\User
+	HOMEPATH = \Users\User
+	LOCALAPPDATA = C:\Users\User\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 25
+	LOGONSERVER = \\DESKTOP-KVO0H26
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	SystemDrive = C:
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\User\AppData\Roaming
+	PROCESSOR_REVISION = 2102
+	USERNAME = User
+	CommonProgramW6432 = C:\Program Files\Common Files
+	TEMP = C:\Users\User\AppData\Local\Temp
+	OneDrive = C:\Users\User\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-KVO0H26
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+	ComSpec = C:\Windows\system32\cmd.exe
+	INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+	MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+	NUMBER_OF_PROCESSORS = 32
+	TMP = C:\Users\User\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	USERDOMAIN = DESKTOP-KVO0H26
+	PUBLIC = C:\Users\Public
+01:10:38 [INF][      Workbench]: Current version given by meta info is: 8.0.29
+01:10:38 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin
+01:10:38 [INF][ mforms managed]: Initializing mforms wrapper
+01:10:38 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\User\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+01:10:38 [INF][      WBContext]: WbContext::init
+01:10:39 [INF][            WBA]: Looking for extension modules for WBA...
+01:10:39 [INF][            WBA]: 0 extension modules found
+01:10:39 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+01:10:39 [WRN][            grt]: C:\Users\User\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{AA76F8BA-214B-4812-A37C-0BE16151962D}' <object GrtObject> key=owner could not be resolved
+01:10:39 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+01:10:39 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.29 CE build 1751076 (64 bit)
+	Configuration Directory: C:\Users\User\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.4
+	OS: Microsoft Windows 10 Home
+	CPU: 32x AMD Ryzen 9 5950X 16-Core Processor            , 64.0 GiB RAM
+	Active video adapter NVIDIA GeForce RTX 3090
+	Installed video RAM: -1 MB
+	Current video mode: 3840 x 2160 x 4294967296색
+	Used bit depth: 32
+	Driver version: 30.0.15.1295
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll
+	Current user language: 한국어(대한민국)
+
+01:10:39 [INF][      Workbench]: UI is up
+01:10:39 [INF][      Workbench]: Running the application
+01:15:13 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:15:13 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:15:17 [INF][    WQE backend]: User cancelled connection
+01:15:17 [INF][      WBContext]: Connection to Local instance MySQL80 cancelled by user: Cancelled
+01:15:19 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:15:19 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:15:22 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.29
+01:15:23 [INF][        WQE.net]: Launching SQL IDE
+01:15:23 [INF][        WQE.net]: SQL IDE UI is ready
+01:15:52 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:15:52 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:15:55 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.29
+01:15:55 [INF][        WQE.net]: Launching SQL IDE
+01:15:55 [INF][        WQE.net]: SQL IDE UI is ready
+01:16:54 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+01:18:20 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:18:20 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:18:24 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:18:24 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:18:24 [ERR][    WQE backend]: Got an exception during connection: Access denied for user 'root'@'localhost' (using password: NO)
+01:18:24 [ERR][SQL Editor Form]: SQL editor could not be connected: Access denied for user 'root'@'localhost' (using password: NO)
+01:18:24 [ERR][SQL Editor Form]: Your connection attempt failed for user 'root' to the MySQL server at localhost:3306:
+  Access denied for user 'root'@'localhost' (using password: NO)
+
+Please:
+1 Check that MySQL is running on address localhost
+2 Check that MySQL is reachable on port 3306 (note: 3306 is the default, but this can be changed)
+3 Check the user root has rights to connect to localhost from your address (MySQL rights define what clients can connect to the server and from which machines) 
+4 Make sure you are both providing a password if needed and using the correct password for localhost connecting from the host address you're connecting from
+01:18:26 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:18:26 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:18:26 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:18:26 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:18:29 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.29
+01:18:30 [INF][        WQE.net]: Launching SQL IDE
+01:18:30 [INF][        WQE.net]: SQL IDE UI is ready
+01:18:37 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+01:18:53 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.29
+01:19:01 [WRN][         mforms]: Resource file not found: db.StoredProcedure.16x16.png
+01:19:01 [WRN][         mforms]: Resource file not found: db.Function.16x16.png
+01:19:01 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+01:19:02 [WRN][         mforms]: Resource file not found: db.StoredProcedure.16x16.png
+01:19:02 [WRN][         mforms]: Resource file not found: db.Function.16x16.png
+01:19:02 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+01:19:09 [ERR][         python]: error calling WbAdmin.openAdminSection
+Traceback:
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\wb_admin_grt.py", line 855, in openAdminSection
+            context.open_into_section(section, True)
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\wb_admin_grt.py", line 329, in open_into_section
+                page = page_class(self.ctrl_be, self.server_profile, self.admin_tab)
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\wb_admin_server_status.py", line 234, in __init__
+            self.status = wb_admin_monitor.WbAdminMonitor(server_profile, self.ctrl_be)
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\wb_admin_monitor.py", line 251, in __init__
+            self.mon_be = wba_monitor_be.WBAdminMonitorBE(UPDATE_INTERVAL, server_profile, ctrl_be, self.widgets, self.cpu_widget, sql)
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\wba_monitor_be.py", line 398, in __init__
+                    self.wmimon = WMIStats(ctrl_be, server_profile, cpu_widget)
+  File "C:\Program Files\MySQL\MySQL Workbench 8.0\modules\wba_monitor_be.py", line 343, in __init__
+                raise Exception("Current profile has no WMI enabled") # TODO Should be better message
+NameError: Current profile has no WMI enabled
+01:19:09 [ERR][            grt]: Error executing plugin wb.admin.open_into: error calling Python module function WbAdmin.openAdminSection	
+01:19:09 [ERR][      WBContext]: error calling Python module function WbAdmin.openAdminSection
+01:24:56 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:24:56 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:24:57 [INF][    WQE backend]: User cancelled connection
+01:24:57 [INF][      WBContext]: Connection to new connection cancelled by user: Cancelled
+01:26:43 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.29
+01:26:43 [INF][        WQE.net]: Launching SQL IDE
+01:26:44 [INF][        WQE.net]: SQL IDE UI is ready
+01:26:47 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+01:26:48 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (sys))
+01:26:51 [INF][      Workbench]: Shutting down Workbench
+01:26:51 [INF][ mforms managed]: Shutting down mforms wrapper
+01:26:52 [INF][      Workbench]: Done

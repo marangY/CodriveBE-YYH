@@ -1,0 +1,73 @@
+01:41:13 [ERR][      Workbench]: Console redirection failed.
+01:41:13 [INF][      Workbench]: Starting up Workbench
+01:41:13 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 693895437
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 45973504
+01:41:13 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-KVO0H26
+	USERPROFILE = C:\Users\User
+	HOMEPATH = \Users\User
+	LOCALAPPDATA = C:\Users\User\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Program Files\MariaDB 10.8\bin;
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 25
+	LOGONSERVER = \\DESKTOP-KVO0H26
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	SystemDrive = C:
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	APPDATA = C:\Users\User\AppData\Roaming
+	PROCESSOR_REVISION = 2102
+	USERNAME = User
+	CommonProgramW6432 = C:\Program Files\Common Files
+	OneDrive = C:\Users\User\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-KVO0H26
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+	ComSpec = C:\Windows\system32\cmd.exe
+	INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+	MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+	TEMP = C:\Users\User\AppData\Local\Temp
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 32
+	TMP = C:\Users\User\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	USERDOMAIN = DESKTOP-KVO0H26
+	PUBLIC = C:\Users\Public
+	__COMPAT_LAYER = DetectorsAppHealth
+01:41:13 [INF][      Workbench]: Current version given by meta info is: 8.0.30
+01:41:13 [INF][      Workbench]: Exiting as another instance of WB is already running.
+01:41:22 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:41:22 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:41:26 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to mariadb.org binary distribution version 10.8.3-MariaDB
+01:41:26 [ERR][      WBContext]: Unsupported server version: mariadb.org binary distribution 10.8.3-MariaDB
+01:41:30 [INF][        WQE.net]: Launching SQL IDE
+01:41:30 [INF][        WQE.net]: SQL IDE UI is ready
+01:41:34 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 - Warning - not supported)
+01:41:36 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:41:36 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:41:37 [INF][    WQE backend]: User cancelled connection
+01:41:37 [INF][      WBContext]: Connection to new connection1 cancelled by user: Cancelled
+01:42:03 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+01:42:03 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+01:42:07 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to mariadb.org binary distribution version 10.8.3-MariaDB
+01:42:07 [ERR][      WBContext]: Unsupported server version: mariadb.org binary distribution 10.8.3-MariaDB
+01:42:07 [INF][        WQE.net]: Launching SQL IDE
+01:42:08 [INF][        WQE.net]: SQL IDE UI is ready
+02:33:26 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 - Warning - not supported)

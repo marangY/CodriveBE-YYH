@@ -1,0 +1,44 @@
+[1, 18:23:40] SHOW databases: Running...
+[1, 18:23:40] SHOW databases: Fetching...
+[1, 18:23:40] SHOW databases: 6 row(s) returned
+[2, 18:24:30] USE world: Running...
+[2, 18:24:30] USE world: 0 row(s) affected
+[3, 02:31:30] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Running...
+[3, 02:31:30] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Error Code: 1146. Table 'sys.city' doesn't exist
+[4, 02:31:45] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Running...
+[4, 02:31:45] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Error Code: 1146. Table 'sys.city' doesn't exist
+[5, 02:33:19] SELECT * Name, Population FROM city: Running...
+[5, 02:33:19] SELECT * Name, Population FROM city: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Name, Population FROM city' at line 1
+[6, 02:33:28] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Running...
+[6, 02:33:28] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Error Code: 1146. Table 'sys.city' doesn't exist
+[7, 02:33:48] USE world: Running...
+[7, 02:33:48] USE world: 0 row(s) affected
+[8, 02:33:53] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Running...
+[8, 02:33:53] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: Fetching...
+[8, 02:33:53] SELECT Name, Population FROM city
+LIMIT 0, 1000
+: 1000 row(s) returned
+[1, 01:42:57] Apply changes to board: Applying object changes ...
+[1, 01:42:59] Applying changes to board...: 
+[1, 01:42:59] : Changes applied to board
+[1, 01:43:05] Apply changes to board: Changes applied
+[2, 01:52:27] Apply changes to board: Applying object changes ...
+[2, 01:52:28] Applying changes to board...: 
+[2, 01:52:28] : Changes applied to board
+[2, 01:52:30] Apply changes to board: Changes applied

@@ -1,0 +1,99 @@
+01:41:10 [ERR][      Workbench]: Console redirection failed.
+01:41:10 [INF][      Workbench]: Starting up Workbench
+01:41:10 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe"
+	CurrentDirectory: C:\Users\User\Downloads
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 693892453
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 44023808
+01:41:10 [INF][      Workbench]: Environment variables:
+	SESSIONNAME = Console
+	ProgramFiles(x86) = C:\Program Files (x86)
+	ProgramW6432 = C:\Program Files
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+	TMP = C:\Users\User\AppData\Local\Temp
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin
+	MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+	HOMEPATH = \Users\User
+	USERPROFILE = C:\Users\User
+	PROCESSOR_REVISION = 2102
+	TEMP = C:\Users\User\AppData\Local\Temp
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	LOGONSERVER = \\DESKTOP-KVO0H26
+	USERNAME = User
+	SystemRoot = C:\Windows
+	CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19748_KQRELUQMKJWFBAAR
+	OneDrive = C:\Users\User\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	ProgramData = C:\ProgramData
+	CHROME_RESTART = Chrome|Chrome이 다운되었습니다. 다시 시작하시겠습니까?|LEFT_TO_RIGHT
+	COMPUTERNAME = DESKTOP-KVO0H26
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ALLUSERSPROFILE = C:\ProgramData
+	CommonProgramW6432 = C:\Program Files\Common Files
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	HOMEDRIVE = C:
+	INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+	windir = C:\Windows
+	SystemDrive = C:
+	NUMBER_OF_PROCESSORS = 32
+	OS = Windows_NT
+	ProgramFiles = C:\Program Files
+	ComSpec = C:\Windows\system32\cmd.exe
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	APPDATA = C:\Users\User\AppData\Roaming
+	USERDOMAIN = DESKTOP-KVO0H26
+	PROCESSOR_LEVEL = 25
+	LOCALAPPDATA = C:\Users\User\AppData\Local
+	VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-KVO0H26
+	PUBLIC = C:\Users\Public
+01:41:10 [INF][      Workbench]: Current version given by meta info is: 8.0.30
+01:41:10 [INF][      Workbench]: This is the first start of a new version. Doing some clean up.
+01:41:10 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin
+01:41:10 [INF][ mforms managed]: Initializing mforms wrapper
+01:41:11 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	user data dir: C:\Users\User\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+01:41:11 [INF][      WBContext]: WbContext::init
+01:41:12 [INF][            WBA]: Looking for extension modules for WBA...
+01:41:12 [INF][            WBA]: 0 extension modules found
+01:41:12 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+01:41:12 [WRN][            grt]: C:\Users\User\AppData\Roaming\MySQL\Workbench\connections.xml:25: link '{D0236024-E3C9-43D2-A249-620487929097}' <object GrtObject> key=owner could not be resolved
+01:41:12 [WRN][            grt]: C:\Users\User\AppData\Roaming\MySQL\Workbench\server_instances.xml:37: link '{D0236024-E3C9-43D2-A249-620487929097}' <object GrtObject> key=owner could not be resolved
+01:41:12 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+01:41:12 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.30 CE build 2054668 (64 bit)
+	Configuration Directory: C:\Users\User\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	Cairo Version: 1.17.4
+	OS: Microsoft Windows 10 Home
+	CPU: 32x AMD Ryzen 9 5950X 16-Core Processor            , 64.0 GiB RAM
+	Active video adapter NVIDIA GeForce RTX 3090
+	Installed video RAM: -1 MB
+	Current video mode: 3840 x 2160 x 4294967296색
+	Used bit depth: 32
+	Driver version: 30.0.15.1295
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_647b4244e991951b\nvldumdx.dll
+	Current user language: 한국어(대한민국)
+
+01:41:12 [INF][      Workbench]: UI is up
+01:41:13 [INF][      Workbench]: Running the application
