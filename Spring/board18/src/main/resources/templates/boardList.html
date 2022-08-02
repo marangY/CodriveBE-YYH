@@ -17,7 +17,7 @@
     /*<![CDATA[*/
         var value = /*[[param.searchKeyword]]*/;
 
-        if (value != null && value != "") {
+        if (value != null && value.isEmpty()) {
             document.getElementById("search").value = value;
         }
     /*]]>*/
