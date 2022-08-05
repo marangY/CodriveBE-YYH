@@ -51,10 +51,10 @@
       </table>
 
       <th:block th:each="page : ${#numbers.sequence(startPage, endPage)}">
-          <a th:if="${page != nowPage and param.searchKeyword != null and param.searchTag != null}" th:href="@{/board/List(page = ${page - 1}, searchKeyword = ${param.searchKeyword}, searchTag = ${param.searchTag})}" th:text="${page}"></a>
-          <a th:if="${page != nowPage and param.searchKeyword != null and param.searchTag == null}" th:href="@{/board/List(page = ${page - 1}, searchKeyword = ${param.searchKeyword})}" th:text="${page}"></a>
-          <a th:if="${page != nowPage and param.searchKeyword == null and param.searchTag != null}" th:href="@{/board/List(page = ${page - 1}, searchTag = ${param.searchTag})}" th:text="${page}"></a>
-          <a th:if="${page != nowPage and param.searchKeyword == null and param.searchTag == null}" th:href="@{/board/List(page = ${page - 1})}" th:text="${page}"></a>
+          <a th:if="${page != nowPage and param.searchKeyword != null and param.searchTag != null and list.getTotalPages != 0}" th:href="@{/board/List(page = ${page - 1}, searchKeyword = ${param.searchKeyword}, searchTag = ${param.searchTag})}" th:text="${page}"></a>
+          <a th:if="${page != nowPage and param.searchKeyword != null and param.searchTag == null and list.getTotalPages != 0}" th:href="@{/board/List(page = ${page - 1}, searchKeyword = ${param.searchKeyword})}" th:text="${page}"></a>
+          <a th:if="${page != nowPage and param.searchKeyword == null and param.searchTag != null and list.getTotalPages != 0}" th:href="@{/board/List(page = ${page - 1}, searchTag = ${param.searchTag})}" th:text="${page}"></a>
+          <a th:if="${page != nowPage and param.searchKeyword == null and param.searchTag == null and list.getTotalPages != 0}" th:href="@{/board/List(page = ${page - 1})}" th:text="${page}"></a>
           <strong th:if="${page == nowPage}" th:text="${page}" style="color : red"></strong>
       </th:block>
 

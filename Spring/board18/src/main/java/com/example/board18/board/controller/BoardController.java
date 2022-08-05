@@ -1,20 +1,19 @@
-package com.example.board18.controller;
+package com.example.board18.board.controller;
 
-import com.example.board18.entity.Board;
-import com.example.board18.service.BoardService;
+import com.example.board18.board.service.BoardService;
+import com.example.board18.board.entity.Board;
+import com.example.board18.board.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
-import  org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.util.List;
 
 
 // 페이지 이동과 변수의 전달
@@ -28,7 +27,7 @@ public class BoardController {
     @GetMapping("/board/Write")
     public String boardWriteForm() {
 
-        return "boardWrite";
+        return "board/boardWrite";
     }
 
     //"board/WritePro" 사이트로 이동시 board 에 title, content 전송
@@ -45,7 +44,7 @@ public class BoardController {
         model.addAttribute("message", "글 작성이 완료 되었습니다.");
         model.addAttribute("searchUrl", "/board/List");
 
-        return "message";
+        return "board/message";
     }
 
     //"board/WritePro" 사이트로 들어갔을때 boardList html 문서 이동
@@ -92,7 +91,7 @@ public class BoardController {
         model.addAttribute("startPage", startPage);
         model.addAttribute("endPage", endPage);
 
-        return "boardList";
+        return "board/boardList";
     }
 
     // 특정 계시글 호출
@@ -100,7 +99,7 @@ public class BoardController {
     public String boardView(Model model, Integer id) {
 
         model.addAttribute("board", boardService.boardView(id));
-        return "boardView";
+        return "board/boardView";
     }
 
     // 게시글 삭제
@@ -118,7 +117,7 @@ public class BoardController {
 
         model.addAttribute("board", boardService.boardView(id));
 
-        return "boardModify";
+        return "board/boardModify";
     }
 
     // 게시글 수정 적용
@@ -141,7 +140,7 @@ public class BoardController {
         model.addAttribute("message", "글 수정이 완료 되었습니다.");
         model.addAttribute("searchUrl", "/board/List");
 
-        return "message";
+        return "board/message";
     }
 
 }

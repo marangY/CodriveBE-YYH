@@ -1,7 +1,7 @@
-package com.example.board18.service;
+package com.example.board18.board.service;
 
-import com.example.board18.entity.Board;
-import com.example.board18.repository.BoardRepository;
+import com.example.board18.board.entity.Board;
+import com.example.board18.board.repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
-import java.util.List;
 import java.util.UUID;
 
 import java.text.SimpleDateFormat;
@@ -86,6 +85,9 @@ public class BoardService {
     // 특정 계시글 삭제
 
     public void boardDelete(Integer id) {
+        File file = new File(boardRepository.findById(id).get().getFilepath());
+
+        file.delete();
 
         boardRepository.deleteById(id);
     }
