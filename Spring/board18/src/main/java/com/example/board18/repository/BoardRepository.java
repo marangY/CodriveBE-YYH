@@ -1,6 +1,7 @@
-package com.example.board18.board.repository;
+package com.example.board18.repository;
 
-import com.example.board18.board.entity.Board;
+import com.example.board18.entity.Board;
+import com.example.board18.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -16,4 +17,9 @@ public interface BoardRepository extends JpaRepository<Board, Integer>{
     Page<Board> findByTagContaining(String searchTag, Pageable pageable);
 
     Page<Board> findByTitleAndTagContaining(String searchKeyword, String searchTag, Pageable pageable);
+
+    @Repository
+    interface UserRepository extends JpaRepository<User, String>{
+
+    }
 }

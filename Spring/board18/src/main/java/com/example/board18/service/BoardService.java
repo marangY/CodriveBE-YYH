@@ -1,7 +1,7 @@
-package com.example.board18.board.service;
+package com.example.board18.service;
 
-import com.example.board18.board.entity.Board;
-import com.example.board18.board.repository.BoardRepository;
+import com.example.board18.entity.Board;
+import com.example.board18.repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -86,6 +86,7 @@ public class BoardService {
 
     public void boardDelete(Integer id) {
         File file = new File(boardRepository.findById(id).get().getFilepath());
+
 
         file.delete();
 

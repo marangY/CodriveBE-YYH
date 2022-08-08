@@ -1,8 +1,7 @@
-package com.example.board18.board.controller;
+package com.example.board18.controller;
 
-import com.example.board18.board.service.BoardService;
-import com.example.board18.board.entity.Board;
-import com.example.board18.board.service.BoardService;
+import com.example.board18.service.BoardService;
+import com.example.board18.entity.Board;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
