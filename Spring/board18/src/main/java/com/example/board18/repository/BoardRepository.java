@@ -18,8 +18,4 @@ public interface BoardRepository extends JpaRepository<Board, Integer>{
 
     Page<Board> findByTitleAndTagContaining(String searchKeyword, String searchTag, Pageable pageable);
 
-    @Repository
-    interface UserRepository extends JpaRepository<User, String>{
-
-    }
 }
