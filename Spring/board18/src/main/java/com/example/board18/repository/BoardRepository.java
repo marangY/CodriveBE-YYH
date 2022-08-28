@@ -1,7 +1,6 @@
 package com.example.board18.repository;
 
 import com.example.board18.entity.Board;
-import com.example.board18.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

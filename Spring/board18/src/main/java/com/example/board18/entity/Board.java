@@ -8,6 +8,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 // 데이터 저장용 entity (틀)
+
+//JPA 연결 매핑 종류
+// @OneToOne
+// @OneToMany
+// @ManyToOne
+// @ManyToMany
+
 @Entity
 @Data
 public class Board {
@@ -30,7 +37,7 @@ public class Board {
     private String tag;
 
     // 작성자 데이터베이스(user)
-    private String user = "user";
+    private String username = "user";
 
     //파일
     private String filename;
