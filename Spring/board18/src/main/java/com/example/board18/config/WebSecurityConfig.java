@@ -23,7 +23,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 //로그인이 되지 않은 유저가 이동할수 있는 페이지 설정
                 .authorizeRequests()
-                    .antMatchers("/",  "/css/**", "/board/List", "/account/register").permitAll()
+                    .antMatchers("/",  "/css/**", "/file/**", "/board/List", "/account/register").permitAll()
                     .anyRequest().authenticated()
                     .and()
                 // 로그인 페이지 설정(로그인이 되어있지 않은 유저가 로그인을 시도하면 자동으로 이동)
@@ -51,7 +51,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         + "from user "
                         + "where userID = ?")
                 .authoritiesByUsernameQuery("select u.userID, r.name "
-                        + "from user_role ur inner join user u on ur.id = u.id "
+                        + "from user_role ur inner join user u on ur.user_id = u.id "
                         + "inner join role r on ur.role_id = r.id "
                         + "where u.userID = ?");
     }
